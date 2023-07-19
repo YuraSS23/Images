@@ -6,18 +6,22 @@ div {
     transform: translate(-50%, -50%);
 }
 
-button {
+button.svg-tag {
     width:40px;
     height: 40px;
     background-color: white;
     border: 2px solid green;
     border-radius: 5px;
     margin: 15px;
-}
-button:hover {
-    border-color: red;
-    stroke: red;
-    stroke-width : 9%;
-    background-color: blue;
     cursor: pointer;
+}
+button:hover svg{
+    fill: red;
+}
+button.svg-tag:hover {
+    border: 2px solid red;
+    background-color: orange;
+}
+button svg {
+    fill: green;
 }
