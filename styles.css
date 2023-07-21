@@ -1,4 +1,4 @@
-div {
+div.general {
     padding: 0px;
     position: absolute;
     top: 50%;
@@ -24,4 +24,43 @@ button.svg-tag:hover {
 }
 button svg {
     fill: green;
+}
+img {
+    width:130px;
+    height: 150px;
+    margin: 0;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+div.tovar {
+padding: 0px;
+margin: auto;
+    width:150px;
+    height: 250px;
+    background-color: white;
+}
+button.item {
+    background-color: red;
+    width:130px;
+    height: 180px;
+}
+body {
+    background-color: grey;
+}
+a.tovar {
+    padding: 13px;
+    text-decoration: none;
+    color: #4c4b4b;
+}
+p.tovar{
+    margin: 10px 0px 0px 50px;
+    padding: 0px;
+}
+p.ostatok{
+    margin: 5px;
+    padding: 0px;
+    text-align: center;
+    font-size: small;
+    color: red;
 }
